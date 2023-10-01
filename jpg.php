@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - FileDown</title>
+    <title>JPG - FileDown</title>
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -21,7 +21,7 @@
         ?>
 
         <main>
-            <?php require('app/controllers/contactoController.php') ?>
+            <?php require('app/controllers/jpgController.php') ?>
         </main>
     </div>
 </body>

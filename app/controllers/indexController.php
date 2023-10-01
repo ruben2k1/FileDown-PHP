@@ -20,7 +20,6 @@
     $results4 = $sentence4->fetchAll();
 ?>
     <h2>JPG</h2>
-
 <?php
     foreach ($results1 as $result) {
         echo "

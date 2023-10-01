@@ -221,7 +221,7 @@ article ul button:hover a {
 
 .bi-send-check{
     margin: 1.5rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     background-color: transparent;
 }
 
@@ -250,27 +250,17 @@ article ul button:hover a {
 .btn-form{
     text-decoration: none;
     color: white;
-    font-weight: bold;
     background-color: black;
     padding: .25rem;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: .25rem;
 }
 
 .btn-form:hover{
     text-decoration: none;
     color: black;
-    font-weight: bold;
     background-color: transparent;
     cursor: pointer;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: .25rem;
 }
 
 .span-404{
