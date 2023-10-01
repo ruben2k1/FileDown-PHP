@@ -6,8 +6,8 @@
             <li><a href="novedades.php"><i class="bi bi-brightness-high-fill"></i> NOVEDADES</a></li>
             <li><a href="contacto.php"><i class="bi bi-cursor-fill"></i> CONTACTO</a></li>
             <li>
-                <form action="search.php" method="get" class="nav-search">
-                    <input type="text" name="archivo" placeholder="Buscar archivo...">
+                <form action="buscar.php" method="get" class="nav-search">
+                    <input type="text" name="titulo" placeholder="Buscar archivo...">
                     <button type="submit" class="btn-search"><i class="bi bi-search"></i> BUSCAR</button>
                 </form>
             </li>
