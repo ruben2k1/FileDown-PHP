@@ -9,3 +9,17 @@
 ?>
 
 <h2>👇🏻 ÚLTIMOS ARCHIVOS AÑADIDOS</h2>
+
+<?php
+    foreach ($results1 as $result) {
+        echo "
+        <article>
+            <ul>
+                <li><img src='{$result['RUTA_IMG']}' alt=''></li>
+                <li>{$result['TITULO']}</li>
+                <button><a href=''>DESCARGAR</a></button>
+            </ul>
+        </article>
+        ";
+    }
+?>
