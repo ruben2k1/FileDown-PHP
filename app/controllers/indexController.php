@@ -27,7 +27,7 @@
             <ul>
                 <li><img src='{$result['RUTA_IMG']}' alt=''></li>
                 <li>{$result['TITULO']}</li>
-                <button><a href=''>DESCARGAR</a></button>
+                <button><a href='archivo.php?id={$result['ID']}'>DESCARGAR</a></button>
             </ul>
         </article>
         ";
@@ -42,7 +42,7 @@
             <ul>
                 <li><img src='{$result['RUTA_IMG']}' alt=''></li>
                 <li>{$result['TITULO']}</li>
-                <button><a href=''>DESCARGAR</a></button>
+                <button><a href='archivo.php?id={$result['ID']}'>DESCARGAR</a></button>
             </ul>
         </article>
         ";
@@ -57,7 +57,7 @@
             <ul>
                 <li><img src='{$result['RUTA_IMG']}' alt=''></li>
                 <li>{$result['TITULO']}</li>
-                <button><a href=''>DESCARGAR</a></button>
+                <button><a href='archivo.php?id={$result['ID']}'>DESCARGAR</a></button>
             </ul>
         </article>
         ";
@@ -71,7 +71,7 @@
             <ul>
                 <li><img src='{$result['RUTA_IMG']}' alt=''></li>
                 <li>{$result['TITULO']}</li>
-                <button><a href=''>DESCARGAR</a></button>
+                <button><a href='archivo.php?id={$result['ID']}'>DESCARGAR</a></button>
             </ul>
         </article>
         ";
